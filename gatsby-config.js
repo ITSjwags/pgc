@@ -1,6 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'pgc',
+    siteUrl: `https://www.pineconegolfclub.netlify.app`,
   },
   plugins: [
     'gatsby-plugin-styled-components',
