@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'pgc',
-    siteUrl: `https://www.pineconegolfclub.netlify.app`,
+    siteUrl: 'https://www.pineconegolfclub.netlify.app',
   },
   plugins: [
     'gatsby-plugin-styled-components',
@@ -12,15 +12,15 @@ module.exports = {
     //   },
     // },
     {
-      resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-manifest',
       options: {
-        name: `Pinecone Golf Club`,
-        short_name: `PGC`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-        icon: `src/images/icon.png`,
+        name: 'Pinecone Golf Club',
+        short_name: 'PGC',
+        start_url: '/',
+        background_color: '#f7f0eb',
+        theme_color: '#a2466c',
+        display: 'standalone',
+        icon: 'src/images/icon.png',
       },
     },
     'gatsby-plugin-sharp',
